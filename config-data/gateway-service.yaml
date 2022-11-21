@@ -17,7 +17,7 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: ms-marcas
-          uri: lb://ms-marcas
+        - id: marca
+          uri: lb://marca
           predicates:
             - Path=/marcas/**
