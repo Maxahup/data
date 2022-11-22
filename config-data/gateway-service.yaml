@@ -24,4 +24,4 @@ spring:
         - id: personal
           uri: lb://personal
           predicates:
-            - Patch=/personal/**
+            - Path=/personal/**
