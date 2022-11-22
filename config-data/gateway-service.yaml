@@ -21,3 +21,7 @@ spring:
           uri: lb://marca
           predicates:
             - Path=/marcas/**
+        - id: personal
+          uri: lb://personal
+          predicates:
+            - Patch=/personal/**
