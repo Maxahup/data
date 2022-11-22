@@ -25,3 +25,6 @@ spring:
           uri: lb://personal
           predicates:
             - Path=/personal/**
+        - id: planilla
+          uri: lb://planilla
+            - Path=/planilla/**
