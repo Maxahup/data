@@ -29,3 +29,11 @@ spring:
           uri: lb://planilla
           predicates:
             - Path=/planilla/**
+        - id: autorizacion
+          uri: lb://autorizacion
+          predicates:
+            - Path=/autorizaciones/**
+        - id: justificativo
+          uri: lb://justificativo
+          predicates:
+            - Path=/justificativos/**
